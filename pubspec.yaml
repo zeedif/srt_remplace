@@ -1,0 +1,17 @@
+name: srt_remplace
+description: A Dart command-line application that replaces the subtitles in an
+  SRT file with the corresponding lines from a text file.
+version: 1.0.0
+repository: https://github.com/zeedif/srt_replace
+
+environment:
+  sdk: ^3.1.0
+
+dependencies:
+  args: ^2.4.2
+  path: ^1.8.3
+  subtitle: ^0.1.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
